@@ -1,0 +1,71 @@
+html,
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(88, 103, 122);
+}
+
+.container {
+  margin-top: 15vh;
+  padding: 3vh;
+  border-radius: 15px;
+  box-shadow: 0 0 20px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(65, 126, 206);
+}
+
+.label {
+  font-size: 1.5vw;
+}
+
+.num {
+  background-color: rgb(26, 80, 151);
+  padding: 1vh;
+  width: 20vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.no {
+  height: 3vh;
+  width: 8vw;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 3vh;
+}
+
+.gen-container {
+  width: 100%;
+  margin-top: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn {
+  height: 6vh;
+  width: 8vw;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  color: rgb(26, 80, 151);
+  font-weight: bold;
+  border: none;
+  font-size: 1.5vw;
+}
+
+.btn:hover {
+  background-color: rgb(26, 80, 151);
+  color: white;
+  box-shadow: 0 0 10px black;
+  border: none;
+}
+
+.change {
+  width: 4vw;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="roman.png" />
+    <title>Roman Numbers Converter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Decimal to Roman Converter</h1>
+      <div class="num">
+        <label class="first label">Decimal Number</label>
+        <input type="text" class="decimal no" />
+      </div>
+
+      <div class="num">
+        <label class="second label">Roman Number</label>
+        <input type="text" class="roman no" readonly />
+      </div>
+
+      <div class="gen-container">
+        <button class="reload btn" onclick="reload()">
+          <i class="fas fa-undo"></i>
+        </button>
+        <br />
+        <button class="calculate btn">Calculate</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
