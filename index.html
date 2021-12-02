@@ -28,13 +28,19 @@
       </div>
 
       <div class="gen-container">
-        <button class="reload btn" onclick="reload()">
-          <i class="fas fa-undo"></i>
+        <button class="changeR2D btn">
+          <i class="fas fa-retweet" onclick="convertR2D()"></i>
+        </button>
+        <button class="changeD2R btn hide">
+          <i class="fas fa-retweet" onclick="convertD2R()"></i>
         </button>
         <br />
-        <button class="calculate btn">Calculate</button>
+        <button class="calculate btn" onclick="calculateDecToRo()">
+          Calculate
+        </button>
       </div>
     </div>
+    <footer>Copyright &copy; by Vladone</footer>
     <script src="script.js"></script>
   </body>
 </html>
